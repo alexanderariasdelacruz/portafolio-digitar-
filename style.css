@@ -1,0 +1,48 @@
+body {
+    background: linear-gradient(135deg, #ccffcc, #99ffcc, #66ffb3);
+    text-align: center;
+    font-family: Arial;
+}
+
+.contenedor-portafolio {
+    background: rgba(255, 255, 255, 0.95);
+    width: 360px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 15px;
+    border: 2px solid #33cc99;
+    box-shadow: 0 0 25px rgba(51, 204, 153, 0.6);
+}
+
+h1 {
+    color: #00cc66;
+    text-shadow: 0 0 10px #66ffcc;
+}
+
+h2 {
+    font-weight: bold;
+    color: #009966;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    display: block;
+    background: linear-gradient(90deg, #66ffcc, #33cc99);
+    color: #003333;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 204, 102, 0.4);
+    transition: 0.3s;
+}
+
+a:hover {
+    background: linear-gradient(90deg, #33cc99, #00cc66);
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #00ff99;
+}
